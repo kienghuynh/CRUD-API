@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen_vang"
+    tools:context=".Manager">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="MANAGER"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnShowInfor"
+        android:layout_width="225dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="80dp"
+        android:background="#000000"
+        android:text="SHOW INFORMATION"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="224dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="64dp"
+        android:background="#000000"
+        android:text="ADD PRODUCT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/btnShowInfor"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnShowInfor"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowInfor" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="#050505"
+        android:text="LOGOUT"
+        android:textColor="#FFF3F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnAddProduct"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/btnAddProduct" />
+</androidx.constraintlayout.widget.ConstraintLayout>
